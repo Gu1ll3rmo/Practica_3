@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Asistencia en mi casa</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Asistencia en mi casa</h1>
+  <p>Fecha: sábado 27 de mayo de 2023</p>
+  <p>Dirección: 123 Calle Principal, Ciudad</p>
+
+  <div id="map"></div>
+
+  <form>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+
+    <input type="submit" value="Confirmar asistencia">
+  </form>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+  <script src="script.js"></script>
+</body>
+</html>
